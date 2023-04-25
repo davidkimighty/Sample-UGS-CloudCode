@@ -11,4 +11,8 @@
       <PackageReference Include="Com.Unity.Services.CloudCode.Core" Version="0.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\SharedLibrary\SharedLibrary.csproj" />
+    </ItemGroup>
+
 </Project>
