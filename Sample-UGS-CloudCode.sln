@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_UGS_CloudCode", "Sam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{15A14B87-8E91-4FE3-8B47-57726FCF286C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{3896A7AA-08EF-4922-8CEE-A678A9469A07}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +18,5 @@ Global
 		{15A14B87-8E91-4FE3-8B47-57726FCF286C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15A14B87-8E91-4FE3-8B47-57726FCF286C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15A14B87-8E91-4FE3-8B47-57726FCF286C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3896A7AA-08EF-4922-8CEE-A678A9469A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3896A7AA-08EF-4922-8CEE-A678A9469A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3896A7AA-08EF-4922-8CEE-A678A9469A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3896A7AA-08EF-4922-8CEE-A678A9469A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

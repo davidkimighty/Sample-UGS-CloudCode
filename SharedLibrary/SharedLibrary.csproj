@@ -5,8 +5,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
-        <PostBuildEvent Condition="$([MSBuild]::IsOSPlatform('OSX'))">cp SharedLibrary.dll /Users/david/workspace/UnityProjects/Sample-UGS/Assets/SampleUGS/DLLs/SharedLibrary.dll</PostBuildEvent>
+        <PostBuildEvent Condition="$([MSBuild]::IsOSPlatform('OSX'))">cp SharedLibrary.dll /Users/david/workspace/UnityProjects/Sample-UGS/Assets/SampleUGS/DLLs/CloudCode.dll</PostBuildEvent>
         <PostBuildEvent Condition="$([MSBuild]::IsOSPlatform('Windows'))">copy SharedLibrary.dll $(OutDir) yourdirectory</PostBuildEvent>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
 
 </Project>
